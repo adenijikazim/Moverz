@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Moverz</title>
+</head>
+<body>
+    <div class="popup">
+        <form action="" id="forms">
+            <h3>Sign up form</h3>
+            <div class="form_group">
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="form_group">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter Your Email">
+            </div>
+            <div class="form_group">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter Your Password">
+            </div>
+
+            <div class="btns">
+
+                <button type="submit"  id="btn_cancel">Cancel</button>
+                <button type="submit" class="btn btn_signup">Sign up</button>
+            </div>
+            <p> Already registered? <a href="#">click here to sign in</a>  </p>
+
+        </form>
+    </div>
+    <div class="popup sign_inForm" id="forms">
+        <form action="">
+            <h3>Sign in </h3>
+            <div class="form_group">
+                <label for="name">email</label>
+                <input type="email" placeholder="Enter Your Email">
+            </div>
+            <div class="form_group">
+                <label for="name">password</label>
+                <input type="password" placeholder="Enter Your Password">
+            </div>
+
+            <div class="btns">
+
+                <button type="submit"  id="btn_cancel">Cancel</button>
+                <button type="submit" class="btn btn_signup">Sign in</button>
+            </div>
+
+        </form>
+    </div>
+    <header>
+        <nav>
+            <div class="image">
+                <a href="#home">
+                    <img src="./imgg/mlogo.jpg" alt="">
+                </a>
+            </div>
+            <ul>
+                <li><a href=#section_about>about us</a></li>
+                <li><a href="#section_services">why moverz</a></li>
+                <li><a href="#section_contactus">contact</a></li>
+                <li><a href="#section_contactus">services</a></li>
+                <li><a href="" class="sign_in">sign in</a></li>
+            </ul>
+            <!-- <i class="fas fa-bars hamburg"></i> -->
+        </nav>
+        <div class="hero_text">
+            <h1>perfect trucking solutions <br> for your relocations</h1>
+            <a href="#" class="signup">get started</a>
+        </div>
+    </header>
+
+    <!------------------------- about us  -------------------->
+    <section id="section_about" >
+        <h2>about us</h2>
+        <p>Moverz is a logistics platform that seeks to solve relocation logistics problem.
+            we link ou to the nearest trucks around and get your luggage picked up at your scheduled date.
+            our brand signifies trust, comfort and stability.
+        </p>
+    </section>
+
+    <!----------------------- why ---------------------->
+    <section id="section_services" >
+        <h2>services</h2>
+        <div class="services_details">
+            <div class="services_box">
+                <h3>luggage and property hauling</h3>
+                <i class="fas fa-shipping-fast"></i>
+
+                <p>moving properties and heavy items from homes and offices to set lcations</p>
+                
+            </div>
+            <div class="services_box">
+                <h3>fleet management</h3>
+                <i class="fas fa-money-check-alt"></i>
+                <p>we provide business tools to fleet owners and managers to easily track and monitor their fleet.</p>
+                
+            </div>
+            <div class="services_box">
+                <h3>shared trucking</h3>
+                <i class="fas fa-share-alt-square"></i>
+                <p>you might not have enough funds to cover a full truck booking. we hav got you covered.</p>
+                
+            </div>
+        </div>
+    </section>
+    <section class="why">
+        <h2>why choose moverz</h2>
+        <div class="services_details">
+            <div class="services_box">
+                <h3>great customer services</h3>
+                <i class="fas fa-user-alt"></i>
+                <p>Reasonable and always ready to resolve issues </p>
+                
+            </div>
+            <div class="services_box">
+                <h3>negotiable pricing</h3>
+                <i class="fas fa-money-check-alt"></i>
+                <p>pricing is affordable and bargainable</p>
+                
+            </div>
+            <div class="services_box">
+                <h3>fast delivery</h3>
+                <i class="fas fa-shipping-fast"></i>
+                <p>Fast and efficient delivery</p>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------- contact us --------------------- -->
+    <section id="section_contactus">
+        <h2>contact us</h2>
+        <form class="contact" >
+            <div class="form_group">
+                <label for="name">name</label>
+                <input type="text" id="name">
+            </div>
+            <div class="form_group">
+                <label for="name">email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="form_group">
+                <label for="phone">phone number</label>
+                <input type="number" name="phone" id="phone">
+            </div>
+
+            <div class="form_group">
+
+                <label for="textarea">leave your message</label>
+                <textarea name="textarea" id="" cols="51" rows="10">Your message</textarea>
+            </div>
+
+            <button class="btn">Send it!</button>
+        </form>
+
+    </section>
+
+
+    <!------------------------ footer ---------------------- -->
+    <footer>
+        <nav>
+            <ul class="privacy">
+                <li><a href="#">terms and conditions</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">faq</a></li>
+                <li><a href="#">meet our team</a></li>
+            </ul>
+            <ul class="social">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+            </ul>
+        </nav>
+        <p>Copyright &copy;2021 by group 15</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
